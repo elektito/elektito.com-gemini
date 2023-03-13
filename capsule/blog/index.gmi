@@ -16,3 +16,4 @@ Here lives my gemini "blog". Not sure what the proper name for a gemini blog is.
 => 3-better-domain 2023-03-12 - Better Domain Name
 => 4-paper-backup 2023-03-13 - Paper Backup for My Gemini Certificate
 => 5-quick-qemu 2023-03-13 - Commands to Quickly Get a qemu VM
+=> 6-new-domain 2023-03-13 - New Domain

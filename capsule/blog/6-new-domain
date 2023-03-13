@@ -1,0 +1,17 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# New Domain
+I've finally managed to move the capsule to elektito.com (from gemini.elektito.com). Both my website and my gemini capsule are now on the same domain. I put the rudimentary configuration and scripts on this repo:
+
+=> https://github.com/elektito/elektito.com
+
+The actual contents of the capsule lives on another repo though:
+
+=> https://github.com/elektito/elektito.com-gemini
