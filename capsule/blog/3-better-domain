@@ -24,6 +24,3 @@ It's all simple enough. The only thing that makes me hesitant is that if somethi
 So what to do? Maybe I'll try putting all the necessary config files in a got repo. I'll also write a small shell script to install the necessary packages, copy config and data files to where they should. The gemini capsule is deployed using a git hook (or github action) to the server. Upon first deployment though, the shell script will pull the current version from git.
 
 I think I might try this simpler setup first and see how things go. Hopefully next time I write here, I'll have a simple domain for both my website, and my gemini capsule.
-
-Glitches:
- - certificate needs to be the same as before
