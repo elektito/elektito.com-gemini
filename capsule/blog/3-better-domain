@@ -1,0 +1,29 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Better Domain Name
+
+So my capsule currently lives on gemini.elektito.com. I'd rather have it on elektito.com, and since gemini uses a different port (1965) than http (80), this is technically possible.
+
+There's a slight glitch though. My domain name, elektito.com, currently has a CNAME record pointing to elektito.github.io (okay, CNAME records can't technically be on zone apex, but Cloudflare does a weird trick to make it possible). Anyways, I like having github serve my website for now, since there's so little maintenance involved. On the other hand, I don't like the gemini.elektito.com domain name either. So I want to make some changes.
+
+Here's what I think I need to do:
+* Point elektito.com to the IP address of one of my VMs.
+* Setup nginx to proxy-pass http traffic to elektito.github.io.
+* Run a gemini server on the same server, serving my gemini capsule.
+* Possibly setup Cloudflare as a CDN for the website to accelerate web pages.
+
+It's all simple enough. The only thing that makes me hesitant is that if something catastrophic happens to my VM, I need to be able to setup everything quickly. On another website, I used k3s to setup a small Kubernetes cluster and used Kubernetes manifests to easily deploy things. It might be a little overkill, but I know my way around Kubernetes that it works for me. The only problem I have with that setup is that k3s uses Traefik as ingress controller, and I haven't come to like that particular web server. I'd rather work with nginx. It should be possible to replace Traefik with nginx on k3s, but that's an extra step to take, and it also makes the supposed one-step reproducible setup slightly more complicated.
+
+So what to do? Maybe I'll try putting all the necessary config files in a got repo. I'll also write a small shell script to install the necessary packages, copy config and data files to where they should. The gemini capsule is deployed using a git hook (or github action) to the server. Upon first deployment though, the shell script will pull the current version from git.
+
+I think I might try this simpler setup first and see how things go. Hopefully next time I write here, I'll have a simple domain for both my website, and my gemini capsule.
+
+Glitches:
+ - certificate needs to be the same as before

@@ -1,0 +1,40 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Hello there!
+My old blog has been dormant for a few years now, so naturally I thought I'd start a new one! This time on gemini. Hopefully, I can maintain an interest in actually writing stuff for it.
+
+# How I learned about gemini
+Let's see if I can reconstruct the trail that led me to gemini, and keep it here for posterity.
+* I was a little annoyed with my window manager (StumpWM) because it didn't allow me to change the fonts the way I liked.
+* I thought maybe it would be fun to write my own window manager.
+* Then I thought, maybe I should write a Wayland compositor instead.
+* I thought maybe I'll try writing it in Go, since I'm just learning it.
+* I found a project named "Go Wayland McWayface" which was an attempt at writing a Wayland compositor in Go.
+* I realized this is a Go version of a project from Drew DeVault's blog.
+* I started reading Drew DeVault's blog posts.
+* The series on Wayland McWayface didn't continue far, but I started reading other posts on the blog.
+* When reading the blog, I learned about sourcehut.
+* On sourcehut's website, there was a section for browsing projects and it had a text saying:
+> "Small internet" protocols? The Plan 9 renaissance? Esoteric programming languages for music creation, and novel smartphone operating systems? These projects and more are waiting to be found on the sourcehut project index.
+* I was like, what's "small internet". I googled it, and I finally found out about gemini.
+
+Funny how one thing leads to another. Also, I must admit the web's haphazard nature of linking things together had something to do with it! Ironic!
+
+# What I'm going to write about?
+I'm writing this section to keep a random collection of my current ideas. Maybe I'll actually write about some of them. We'll see.
+* My programming projects
+* Gemini itself, as I learn about it.
+* Maybe some fun gemini capsules/projects I learn about.
+* Books I read.
+* Games I play.
+* Whatever else that can keep my attention long enough to write a page or two about.
+
+# Comments?
+Guess we gotta do it the old-fashioned way. If you want to contact me you can email me at mostafa@sepent.com.

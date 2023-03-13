@@ -1,0 +1,16 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Quick Gemini Resources
+
+I'm gonna keep a list of gemini related tools and resources here.
+
+=> gemini://gemini.thebackupbox.net/~epoch/blog/spec.gmi Gemini "Speculative" Specification
+=> https://gemini.circumlunar.space/docs/specification.html Gemini Spec on the web
+=> gemini://geminispace.info Gemini Search Engine

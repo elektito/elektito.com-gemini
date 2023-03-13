@@ -1,0 +1,80 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Commands to Quickly Get a qemu VM
+
+I needed to setup a VM for testing my deployment scripts, and since I was rather tired of vagrant for various reasons, I decided to just use qemu. Here's what I did.
+
+First, I need a cloud image. I'm gonna use the latest Ubuntu LTS as of now:
+
+```
+wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
+```
+
+Then I'll create an image based on that:
+
+```
+qemu-img create -f qcow2 -F qcow2 -b jammy-server-cloudimg-amd64.img foo.qcow2 16G
+```
+
+This will get you an image file aptly named foo.qcow2. Then I'll create a file named metadata.yaml:
+
+```
+instance-id: test-vm1
+local-hostname: cloudimg
+```
+
+And another named user-data.yaml:
+
+```
+#cloud-config
+users:
+  - default
+  - name: user
+    ssh_authorized_keys:
+      - ssh-rsa ... user@test
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+mounts:
+  - [ foo0, /mnt, "9p", "trans=virtio,version=9p2000.L"]
+```
+
+Replace "..." with your ssh public key. Now we'll create a seed image based on those files:
+
+```
+cloud-localds seed.img user-data.yaml metadata.yaml
+```
+
+On ubuntu, you can get the cloud-localds command by installing the cloud-image-utils package.
+
+Now run the VM:
+
+```
+qemu-system-x86_64 \
+    -machine accel=kvm,type=q35 \
+    -cpu host \
+    -m 2G \
+    -nographic \
+    -device virtio-net-pci,netdev=net0 \
+    -netdev user,id=net0,hostfwd=tcp::2222-:22 \
+    -drive if=virtio,format=qcow2,file=foo.qcow2 \
+    -drive if=virtio,format=raw,file=seed.img \
+    -virtfs local,path=/home/mostafa/source/elektito.com/,mount_tag=foo0,security_model=mapped-xattr,id=foo0 \
+    -snapshot
+```
+
+In the virtfs flag, the foo0 value passed as "mount_tag" should be the same as the device name we set in the mounts section of user-data.yaml. The id value (which I'm passing the same value to) is unused as far as I can tell, but I'm setting it to the same value just to be safe.
+
+After the VM starts, you can open another terminal and ssh into the VM by running:
+
+```
+ssh -p 2222 user@0.0.0.0
+```
+
+When you're done with the VM, you can break out of qemu emulation (in the first terminal), by pressing "C-a c", and then typing "quit".

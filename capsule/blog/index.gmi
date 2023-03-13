@@ -1,0 +1,18 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Blog
+Here lives my gemini "blog". Not sure what the proper name for a gemini blog is. I'm gonna keep using blog for now, until I find the proper name (and see if I like it!).
+
+# List of blog posts
+=> 1-hello-there 2023-03-08 - First Post
+=> 2-hello-there-proper 2023-03-10 - "Proper" First Post
+=> 3-better-domain 2023-03-12 - Better Domain Name
+=> 4-paper-backup 2023-03-13 - Paper Backup for My Gemini Certificate
+=> 5-quick-qemu 2023-03-13 - Commands to Quickly Get a qemu VM

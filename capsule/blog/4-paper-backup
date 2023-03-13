@@ -1,0 +1,57 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Paper Backup for My Gemini Certificate
+The TLS certificate you use for your gemini capsule is a lot more sensitive than the certificate for your website, in one crucial way: if you lose it, you can't just get another one. Or well, you can generate a new one, but clients that have visited you before won't trust the new certificate. I'm not a big fan of Trust-on-First-Use for multiple reasons, this being one of them. Anyways, since I'm quite paranoid about losing sensitive information, and I want to be able to recover from disaster scenarios, I decided I need a good backup method.
+
+I thought about this for a while and I realized I don't trust any electronic backup. So what to do? Paper to the rescue, of course! I'm going to print my certificate files and store them somewhere (relatively!) safe. I'm going to print the files as QR codes. Not sure if that's the best option or not, but that's what I'm going with! At first I thought the files might be too big for a QR code, since qrencode was complaining about the size, but after I gzipped the file, it was all good. So here's what I did, for posterity's sake.
+
+In order to convert the (gzipped) file to a QR code:
+
+```
+qrencode -o foo.png --read-from=key.pem.gz -8
+```
+
+Reading a QR code back could be done with this command:
+
+```
+zbarimg -1 --raw -q -Sbinary foo.png >k.pem.gz
+```
+
+For printing, I'd like to add some information on what the QR code is, and how to decode it. So I use this LaTeX snippet to add a header (with file name) and a footer (with decoding instructions):
+
+```
+\documentclass{article}
+\RequirePackage[a4paper,top=3cm,left=3cm,right=3cm,bottom=3cm]{geometry}
+
+\usepackage{graphicx}
+\begin{document}
+
+\begin{center}
+TLS certificate for elektito.com (gemini): key.pem.gz
+\end{center}
+
+\includegraphics[width=\textwidth]{foo.png}
+
+\begin{center}
+    decode with: \verb+zbarimg -1 --raw -q -Sbinary foo.png >k.pem.gz+
+
+    encoded with: \verb+qrencode -o foo.png --read-from=key.pem.gz -8+
+\end{center}
+
+\end{document}
+```
+
+Assuming that's in foo.tex, I can convert it to pdf by running:
+
+```
+pdflatex foo.tex
+```
+
+Then I can print the resulting pdf file. I'll this for both the key file and the cert file, of course. Two pieces of paper that I'm gonna keep for ten years. Hopefully before that time is up, we'll have an accepted alternative to TOFU.
