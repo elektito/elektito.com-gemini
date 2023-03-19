@@ -11,6 +11,7 @@
 
 I'm gonna keep a list of gemini related tools and resources here.
 
-=> gemini://gemini.thebackupbox.net/~epoch/blog/spec.gmi Gemini "Speculative" Specification
-=> https://gemini.circumlunar.space/docs/specification.html Gemini Spec on the web
+=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini "Speculative" Specification
 => gemini://geminispace.info Gemini Search Engine
+=> gemini://tlgs.one Another Gemini Search Engine
+=> gemini://medusae.space A Gemini Directory
