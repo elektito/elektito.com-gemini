@@ -1,0 +1,46 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Crawler Issues and a Public Apology
+So I've been writing a small gemini crawler this past couple of weeks. For most of this time it has been limited to no more than a request per second, but it has not been honoring robots.txt and on its first day or two, it has been flooding servers with requests. That's a gross misbehavior, and I sincerely apologize to anyone who has been affected.
+
+I have just added support for robots.txt. Hopefully there won't be any misbehavior from now on. If there's anything you can always contact me by email:
+
+=> mailto:mostafa@sepent.com
+
+There's no fixed ip address for the crawler to disclose here as of now, because I'm running it on a residential Internet connection and it's likely to change from time to time.
+
+Interestingly, I learned about people being affected when I was first testing an early version of my search engine, and one of my queries resulted in a tinylog post about this.
+
+## Ambiguity in robots.txt syntax
+When implementing robots.txt support, I realized there seems to be an ambiguity about the rules. Specifically this part:
+
+> Lines beginning with "User-agent:" indicate a user agent to   which subsequent lines apply
+
+From the gemini robots.txt spec at:
+
+=> gemini://gemini.circumlunar.space/docs/companion/robots.gmi robots.txt for Gemini
+
+Does that mean it applies to all lines from there on to the end of file? Or that it only applies until we encounter another user-agent directive? From my understanding of the web's robots.txt, the latter is the correct interpretation and that's what I'm going with. But then, I have seen robots.txt files that look like this:
+
+> User-agent: archiver
+> User-agent: indexer
+> User-agent: researcher
+> Disallow: /
+
+That's from this capsule by the way:
+
+=> gemini://gemini.thegonz.net:3965/robots.txt
+
+I think the here here meant that all those user-agents are disallowed, but by my interpretation of the rule that's only prohibiting "researcher" user-agents. In this case, I've included all user-agents except for webproxy in my crawler, so the crawler is still ignore that capsule.
+
+If anyone knows more about this issue, and what the correct interpretation might be, I'd love to hear about that.
+
+## Closing Words
+Sorry again for being a bad citizen. I'll try to be better. If you'd like to email me and say hi, or shout at me in all-caps, you're welcome to do so! :)
