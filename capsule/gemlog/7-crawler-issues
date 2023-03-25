@@ -19,6 +19,9 @@ There's no fixed ip address for the crawler to disclose here as of now, because 
 Interestingly, I learned about people being affected when I was first testing an early version of my search engine, and one of my queries resulted in a tinylog post about this.
 
 ## Ambiguity in robots.txt syntax
+
+UPDATE: You can disregard this section. Taking a look at RFC9309, I realized my interpretation was incorrect, and multiple User-Agent lines can be placed consecutively.
+
 When implementing robots.txt support, I realized there seems to be an ambiguity about the rules. Specifically this part:
 
 > Lines beginning with "User-agent:" indicate a user agent to   which subsequent lines apply
