@@ -1,0 +1,23 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# Gemplex Gemini Server
+So I've been writing a Gemini search engine for a while, mostly for kicks, but also to do a larger project in Go since I've just started to learn the language and I needed some practice. It's been coming along rather well, and in fact I can already use it on my PC. Trouble is, I get very easily distracted. I needed to deploy it and I got all caught up in what domain to use for it and whether I should just stick it somewhere like `search.elektito.com` or get a domain of its own (which of course requires choosing a name, a daunting task for me!).
+
+Anyways, this got me thinking about Gemini servers and what if I want to use a single server to host the search engine, and my own capsule and likely other stuff in the future. In the web world, I'd use nginx which can do all sorts of proxying. I wanted something like that for Gemini. Maybe there's already one, I didn't look very hard, because I wanted to write it myself.
+
+But then it got me thinking about what to call that, I was thinking of multiplexing and gemini, so I named it gemplex. I might actually call the search engine that too, because it's vague enough and doesn't sound too bad! I already got the `gemplex.space` domain. But I'm getting distracted again. The point is, I'm writing a gemini server.
+
+It was supposed to be something really simple at first, but of course it got blown out of proportion quickly. I managed to write a quick prototype. The first difficulty happened when I started thinking about client certificates. As far as I know, you can't just pass along the client certificate if you're also terminating and decrypting tls (in order to read the url which is used to choose the upstream server). So I decided we're going to support two kinds of proxying, one based on the SNI field in the request's ClientHello, and one based on URL path. For the former, we won't terminate TLS, just peek into ClientHello. For the latter, we terminate TLS.
+
+Other ideas also came to me, like supporting plain text upstreams, unix sockets, serving static content, supporting CGI, and so on. I actually wrote a speculative README for the project. You can read it here:
+
+=> https://github.com/elektito/gemplex Gemplex README
+
+The repository is just a README at this point. So I just need to go ahead and implement all that!

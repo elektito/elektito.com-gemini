@@ -18,3 +18,4 @@ Here lives my "gemlog". Yes, I finally found out what a gemini "blog" is suppose
 => 5-quick-qemu 2023-03-13 - Commands to Quickly Get a qemu VM
 => 6-new-domain 2023-03-13 - New Domain
 => 7-crawler-issues 2023-03-23 - Crawler Issues and a Public Apology
+=> 8-gemplex-gemini-server 2023-04-05 - Gemplex Gemini Server
