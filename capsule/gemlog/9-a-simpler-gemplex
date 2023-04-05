@@ -1,0 +1,19 @@
+```Silly ASCII Art Logo saying "elektito"
+      _      _    _   _ _
+  ___| | ___| | _| |_(_) |_ ___
+ / _ \ |/ _ \ |/ / __| | __/ _ \
+|  __/ |  __/   <| |_| | || (_) |
+ \___|_|\___|_|\_\\__|_|\__\___/
+
+```
+
+# A Simpler Gemplex?
+In the space of now and a few hours ago (when I wrote my last blog post), I've started thinking...am I just making things too complicated for no reason at all? Just thinking out loud here in this post.
+
+So Gemini is supposed to be a small protocol for the small/slow Internet. I'm used to the performance-centric world of the web, but maybe I should just slow down? I mean, I could just use CGI for any dynamic content I have, and serve the static contents using the normal Gemini server functionality.
+
+I could still write a Gemini server just for fun, but there's no need to write the next nginx for Gemini.
+
+Funnily enough, as soon as I thought of CGI, I immediately started thinking, yeah, but I should implement _FastCGI_...but then, why? For a toy search engine that as likely as not nobody besides me is going to use? And suppose at some point CGI turned out to be too slow for what I need. I can _then_ add FastCGI support to my server.
+
+That sounds best. I've already implemented sni-based multiplexing in gemplex, but I think I'm gonna scrap that and implement something simpler.
