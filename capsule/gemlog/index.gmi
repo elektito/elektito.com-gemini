@@ -11,12 +11,12 @@
 Here lives my "gemlog". Yes, I finally found out what a gemini "blog" is supposed to be named!
 
 # List of Posts
-=> 1-hello-there 2023-03-08 - First Post
-=> 2-hello-there-proper 2023-03-10 - "Proper" First Post
-=> 3-better-domain 2023-03-12 - Better Domain Name
-=> 4-paper-backup 2023-03-13 - Paper Backup for My Gemini Certificate
-=> 5-quick-qemu 2023-03-13 - Commands to Quickly Get a qemu VM
-=> 6-new-domain 2023-03-13 - New Domain
-=> 7-crawler-issues 2023-03-23 - Crawler Issues and a Public Apology
-=> 8-gemplex-gemini-server 2023-04-05 - Gemplex Gemini Server
 => 9-a-simpler-gemplex 2023-04-05 - A Simpler Gemplex?
+=> 8-gemplex-gemini-server 2023-04-05 - Gemplex Gemini Server
+=> 7-crawler-issues 2023-03-23 - Crawler Issues and a Public Apology
+=> 6-new-domain 2023-03-13 - New Domain
+=> 5-quick-qemu 2023-03-13 - Commands to Quickly Get a qemu VM
+=> 4-paper-backup 2023-03-13 - Paper Backup for My Gemini Certificate
+=> 3-better-domain 2023-03-12 - Better Domain Name
+=> 2-hello-there-proper 2023-03-10 - "Proper" First Post
+=> 1-hello-there 2023-03-08 - First Post
