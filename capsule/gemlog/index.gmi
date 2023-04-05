@@ -7,7 +7,7 @@
 
 ```
 
-# Gemlog
+# Elektito's Gemlog
 Here lives my "gemlog". Yes, I finally found out what a gemini "blog" is supposed to be named!
 
 # List of Posts
