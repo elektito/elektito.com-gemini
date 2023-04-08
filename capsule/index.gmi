@@ -1,10 +1,10 @@
-```Silly ASCII Art Logo saying "elektito"
-      _      _    _   _ _
-  ___| | ___| | _| |_(_) |_ ___
- / _ \ |/ _ \ |/ / __| | __/ _ \
-|  __/ |  __/   <| |_| | || (_) |
- \___|_|\___|_|\_\\__|_|\__\___/
-
+```ASCII Art Logo saying "elektito" with a couple of silly mountains
+                                 .
+      _      _    _   _ _       /_\
+  ___| | ___| | _| |_(_) |_ ___/...\  /\
+ / _ \ |/ _ \ |/ / __| | __/ _ \....\/..\_
+|  __/ |  __/   <| |_| | || (_) |.../.....\
+ \___|_|\___|_|\_\\__|_|\__\___/.../.......\
 ```
 
 Programmer, reader, chairman of the fuel commission.
