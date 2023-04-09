@@ -13,7 +13,7 @@ Programmer, reader, chairman of the fuel commission.
 => /penguins 🐧 Penguins of Madagascar Quotes
 => /curated 📑 Curated Gemini capsule list
 => /gemini-rc 🚀 Quick Gemini Resources
-=> gemini://astrobotany.mozz.us/public/5d6f6cba5cc04606a6181744e754be86 🌱 My Plant on Astrobotany
+=> gemini://astrobotany.mozz.us/public/5d6f6cba5cc04606a6181744e754be86 🌱 My Plant "Avendesora" on Astrobotany
 
 Find me in other places:
 => mailto:mostafa@sepent.com 📧 Email
