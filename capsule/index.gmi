@@ -9,10 +9,10 @@
 
 Programmer, reader, chairman of the fuel commission.
 
-=> /curated Curated Gemini capsule list
-=> /gemini-rc Quick Gemini Resources
 => /gemlog/ Gemlog
 => /penguins Penguins of Madagascar Quotes
+=> /curated Curated Gemini capsule list
+=> /gemini-rc Quick Gemini Resources
 
 Find me in other places:
 => mailto:mostafa@sepent.com Email
