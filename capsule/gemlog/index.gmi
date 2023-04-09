@@ -11,6 +11,7 @@
 Here lives my "gemlog". Yes, I finally found out what a gemini "blog" is supposed to be named!
 
 # List of Posts
+=> 10-penguins-of-madagascar 2023-04-09 - Penguins of Madagascar in the Geminispace
 => 9-a-simpler-gemplex 2023-04-05 - A Simpler Gemplex?
 => 8-gemplex-gemini-server 2023-04-05 - Gemplex Gemini Server
 => 7-crawler-issues 2023-03-23 - Crawler Issues and a Public Apology
