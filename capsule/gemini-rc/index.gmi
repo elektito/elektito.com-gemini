@@ -11,7 +11,15 @@
 
 I'm gonna keep a list of gemini related tools and resources here.
 
-=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini "Speculative" Specification
+## Finding Stuff
 => gemini://geminispace.info Gemini Search Engine
 => gemini://tlgs.one Another Gemini Search Engine
 => gemini://medusae.space A Gemini Directory
+
+## Specs, RFCs, and whatnot
+=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini "Speculative" Specification
+=> gemini://gemini.circumlunar.space/docs/companion/subscription.gmi Subscribing to Gemini pages
+=> gemini://gemini.circumlunar.space/docs/companion/robots.gmi robots.txt for Gemini
+=> gemini://mozz.us/files/rfc_gemini_favicon.gmi favicon.txt RFC
+=> gemini://tilde.team/~tomasino/journal/20220214-dane-and-tls.gmi DANE and TLS
+=> https://codeberg.org/bacardi55/gemini-tinylog-rfc
