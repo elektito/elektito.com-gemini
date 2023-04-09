@@ -9,15 +9,15 @@
 
 Programmer, reader, chairman of the fuel commission.
 
-=> /gemlog/ Gemlog
-=> /penguins Penguins of Madagascar Quotes
-=> /curated Curated Gemini capsule list
-=> /gemini-rc Quick Gemini Resources
+=> /gemlog/ 💎 Gemlog
+=> /penguins 🐧 Penguins of Madagascar Quotes
+=> /curated 📑 Curated Gemini capsule list
+=> /gemini-rc 🚀 Quick Gemini Resources
 => gemini://astrobotany.mozz.us/public/5d6f6cba5cc04606a6181744e754be86 🌱 My Plant on Astrobotany
 
 Find me in other places:
-=> mailto:mostafa@sepent.com Email
-=> https://elektito.com My Personal Website
-=> https://mastodon.social/@elektito Mastodon
-=> https://github.com/elektito Github
-=> https://elektito.itch.io/ itch.io
+=> mailto:mostafa@sepent.com 📧 Email
+=> https://elektito.com 🕸️ My Personal Website
+=> https://mastodon.social/@elektito 🟪 Mastodon
+=> https://github.com/elektito 💾 Github
+=> https://elektito.itch.io/ 🕹️ My Games on itch.io
