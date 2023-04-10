@@ -1,0 +1,17 @@
+# Meet Hodhod Gemini Server
+
+So I finally have a working version of my Gemini server which is now called Hodhod. You can find the source code here:
+
+=> https://github.com/elektito/hodhod Hodhod on Github
+
+These are the design goals I had in mind, when writing Hodhod:
+
+ - Pretty URLs: You can opt out of file extensions, and you can mount your paths wherever you want in the URL-space.
+ - Multiple capsule support
+ - CGI support: Because I want to serve my Gemini search engine using this same server.
+
+Hodhod is already serving this capsule. I've created a stub home page for the project here:
+
+=> /hodhod Hodhod
+
+I hope I'll be able to write full configuration docs on that page in the future.
