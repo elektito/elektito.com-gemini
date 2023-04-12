@@ -23,3 +23,6 @@ I'm gonna keep a list of gemini related tools and resources here.
 => gemini://mozz.us/files/rfc_gemini_favicon.gmi favicon.txt RFC
 => gemini://tilde.team/~tomasino/journal/20220214-dane-and-tls.gmi DANE and TLS
 => https://codeberg.org/bacardi55/gemini-tinylog-rfc
+
+## Misc
+=> gemini://gemini.conman.org/cgi A quick, interactive cheat sheet for Gemini CGI scripts
