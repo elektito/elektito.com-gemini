@@ -1,0 +1,39 @@
+# Introducing Gemplex Search Engine
+
+After working on this for a few weeks now, I'm announcing the first public version of the gemini search engine I've been working on:
+
+=> gemini://gemplex.space/ Gemplex Search Engine
+
+## Why Another Search Engine?
+There are already a few good search engines for gemini. There's the venerable geminispace.info, and there's also tlgs.one which is probably my favorite so far. But I still decided to write my own because why not? I've been looking for a project idea to do in Go, because I've recently taught myself a bit of Go. My go-to test project is usually a BitTorrent DHT indexer, but this time I've been thinking about search engines for other reasons, and I thought it might be the perfect project to teach myself about both Go and search engines.
+
+## On Search Engines
+Needing a project to do in Go was not the only reason I took on this project. For a while, I've been thinking about the state of search on the Internet. Google's results have been getting worse and worse these last few years, and we're at a point that it's becoming unbearable. Even ignoring the numerous ads that Google stacks on top of your search results, the actual organic results are in many cases plain garbage. Tweaking your search terms does not help either like it used to do, because now Google usually just ignores your phrasing and goes with whatever it is that it thinks you want. Or more likely, whatever they think makes them more money.
+
+I've already switched to DuckDuckGo as my default search engine, but it's not like that's any better. The way Google has incentivized "SEO-optimized" pages, the Web has been filled with so much junk that whatever search engine you use is going to come up with more or less the same kind of useless results.
+
+Clearly we need a better way. I'm not arrogant enough to think that I'm going to solve this, but I do like to teach myself a thing or two about search, and maybe try out a few ways of handling it. I'll definitely learn some things along the way, and maybe I'll come up with something that's useful to me, if not others.
+
+So I was already thinking about creating a small search engine. Something that ignores pretty much most of the Internet, and only goes with the small subset of the web that has quality content. This is likely a different list for each person, but there might be a sweet spot that's useful to a narrow group of people, like say programmers.
+
+I still want to continue to web search. Geminispace however, is a perfect testing ground. It's really small, and the limited scope has already helped me figure out lots of issues that I'm going to have (at a greater extent) when trying to tackle the web.
+
+## What Should a Gemini Search Engine Do?
+I go back and forth on this one quite a bit. I do think that having mirrors of some of the stuff from the web could be useful. Maybe you'd rather read your RFCs, or browse news, in the comfort of your gemini client. But I'm not quite sure this is the content that a gemini search engine, or any other discovery tool should focus on.
+
+I think most people would agree that gemini is not supposed to replace the web. It was never meant to be. As such, likely the content that people look for in gemini is less likely to be what is already available on the web by truckloads, but what has been written specifically for gemini's kind of audience. This might even also be available on the web. Midnight Pub, for example, is available on both gemini and the web, and yet it's target audience is the same folks who find gemini dear, and as such I still consider it an invaluable part of the geminispace.
+
+All that said, Gemplex in its current state still has lots of stuff that I don't think belong in the results pages of a gemini search engine. I'll be trying to prune these in the future at the hope of filtering out all the noise until only the gems remain. These might not be all long, in-depth posts, but always the creation of real humans written to make a connection. I don't have any quantifiable metric here, but I think that's all right. After all, Gemplex itself is also created by one person at the hopes of making a connection, and maybe also being useful to a few others at some point.
+
+## Thoughts on Go
+But now onto something else. After doing this project I'm quite confident that I really like Go! It's small and clean (sorta like C, which I like a lot), and it does concurrency really well.
+
+This last one is really interesting. So far my go-to programming language has always been python. If you want to do concurrency in Python you either have to use multiprocessing, or use coroutines. Both have their own issues. My latest try with this was a DHT indexer which I wrote using the trio concurrency framework. Trio is really nice, much nicer than Python's built-in asyncio, but just like asyncio it's single-threaded in the end, and if you continue pushing its limits, you're gonna run into a limit that is very hard to bypass. You'll have to mix coroutine-based concurrency with multiprocessing which is no easy task. Or you have to go all in with multiprocessing, but there's a reason you didn't do that in the first place, isn't there?
+
+In my DHT indexer, even though it's very I/O heavy, I quickly maxed out the one cpu available. It doesn't help that Python itself is not exactly fast.
+
+Go on the other hand is really fast. And the concurrency model is stellar. You just launch lightweight goroutines and the runtime takes care of multiplexing them over multiple threads. It works really well. And since these are threads, not processes, communication between them is rather cheap. There's no need for the messages to be serialized, sent over a pipe, and then deserialized.
+
+There are things that Go doesn't have/do, and make me like it because of that! Lack of OOP (at least in its usual incarnation) is a big plus to me. I like that the data model is quite simple. There are no magical overloaded operators, constructors, and destructors that make the code hard to read. Just like C, you know what's going on by looking at a snippet of the code, without having to cross reference all the things the compiler might be calling behind your back. And there are no exceptions to tangle your code. Others might miss these features. I think not having them is a feature of Go.
+
+I did miss the expressiveness of Python on occasion, but all in all, I think Go is going to be competing for my number one preferred programming language in the future.

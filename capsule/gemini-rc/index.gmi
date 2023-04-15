@@ -15,6 +15,7 @@ I'm gonna keep a list of gemini related tools and resources here.
 => gemini://geminispace.info Gemini Search Engine
 => gemini://tlgs.one Another Gemini Search Engine
 => gemini://medusae.space A Gemini Directory
+=> gemini://gemplex.space My own stab at creating a Gemini search engine
 
 ## Specs, RFCs, and whatnot
 => gemini://gemini.circumlunar.space/docs/specification.gmi Gemini "Speculative" Specification

@@ -13,6 +13,14 @@ Programmer, reader, chairman of the fuel commission.
 => /penguins 🐧 Penguins of Madagascar Quotes
 => /curated 📑 Curated Gemini capsule list
 => /gemini-rc 🚀 Quick Gemini Resources
+
+Some of my projects:
+
+=> gemini://gemplex.space/ 🔍 Gemplex Gemini Search Engine
+=> /hodhod 🐦 Hodhod Gemini Server
+
+Other things me on Gemini:
+
 => gemini://astrobotany.mozz.us/public/5d6f6cba5cc04606a6181744e754be86 🌱 My Plant "Avendesora" on Astrobotany
 => gemini://station.martinrue.com/elektito 🛰 My Station
 

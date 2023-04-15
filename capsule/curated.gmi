@@ -9,10 +9,13 @@
 
 # Curated Gemini
 
-I'm going to keep a list of gemini capsules I've found out about. This is going to be very haphazard (and short) now, but hopefully, I'll expand and organize it in the future.
+Well, this is not so much curated at the moment. I'm going to keep a list of gemini capsules I've found out about. This is going to be very haphazard (and short) for now, but hopefully, I'll expand and organize it in the future.
 
 => gemini://cosmic.voyage/
 => gemini://station.martinrue.com/
 => gemini://going-flying.com/
 => gemini://drew.monster/
 => gemini://sdf.org/
+=> gemini://midnight.pub/
+=> gemini://gemini.ctrl-c.club/~lettuce/
+=> gemini://republic.circumlunar.space/users/joneworlds/
