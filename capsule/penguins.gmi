@@ -111,5 +111,14 @@ S: You can't just reschedule scheduled maintenance that's been scheduled. Right 
 
 J: I shall call him Julien Junior, J.J. I will raise him to be just like me: handsome, brilliant, and most of all humble.
 
+## S0107 - Assault and Batteries
+
+S: The only way you're getting this one is if you pry it from my cold, dead flippers.
+J: Ugh, sounds gross...but doable!
+
+S: Team up, with you?
+J: I was thinking more like you do all of the work, and I will watch with anticipation.
+
+J: What more can I, a devilishly handsome lemur king, do?
 
 => / Home
