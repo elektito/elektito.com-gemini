@@ -1,0 +1,114 @@
+# Project Migration
+
+There are many services that I use that I've been meaning to migrate off of, but for one reason or another I've put off doing so. Today I randomly came across this post:
+
+=> gemini://ploum.be/2023-02-22-leaving-github.gmi We need to talk about your Github addiction
+
+This provided me with a gentle reminder. Github is probably one of the easier services to get out of. I've even already got a paid sr.ht account that I can use whenever I want. I decided I'm gonna make a page to keep a list of the the services I want to get out of, and also keep track of my progress, the logs of what I've done, and some context in general. I'm calling this (unimaginatively enough) Project Migration.
+
+Here are the things that I might want to do as part of this project:
+
+[ ] Github
+[ ] Gmail
+[ ] Google
+[ ] Google Chrome
+[ ] Google Keep
+[ ] Google Maps
+[ ] Google Authenticator
+[ ] Google Podcasts
+[ ] Google Drive/Docs
+[ ] Youtube
+[ ] Amazon
+[ ] Cloudflare
+[ ] Audible
+[-] Twitter
+
+I'll mark the completed ones with an "x" and the ones in-progress with a "-".
+
+Before proceeding with more details though, maybe I should pause and consider why I'd like to do this. As well as why I might not want to do it. So here's a list of my reasons, one or more of each might apply to any of the services I want to move away from:
+
+* Non-free software: Using non-free software is never pleasant. It has practical downsides too on many occasions, as non-free software frequently doesn't allow you to do what you want the way you want it.
+* Consolidation and Anti-competitiveness: Some of the services I want to get out of are not bad per se, quality-wise. But when a single company can control a big part of your life, or society at large, sooner or later they will abuse they're power.
+* Bad service/Enshittification: Cory Doctorow has coin the term enshittification, and it's a great word for the things many companies have done to their products and services. Quality is never number one priority. When you have the search business of basically the whole word, it doesn't take long to realize the best way to make even more money is by piling up ads over ads, or incentivizing the entire web to churn out copious amounts of useless articles optimized for your ad algorithms.
+* Social Responsibility: Some services are just bad for society. At least the way they are being operated at the moment. Social media is one of those things. I've mentioned Twitter in particular because that has been the drug of my choice for a long time, but they all have the same sorts of problems: they promote conflict in society and provide an avenue for manipulating the minds of us all. Not to mention just wasting our time.
+* Fun: Sometimes rolling your own might actually be quite fun!
+
+And here are some reasons why I might _not_ want to do this:
+
+* Inconvenience
+* Cost
+* Time and Effort
+* Does it even matter? It's hard not to ask yourself that, but you know, if everyone says that, would anything change?
+
+I'll be populating the rest of this page with stubs and ideas, and try to expand the entries as I make progress, or have new thoughts.
+
+## Github
+Lock-in mechanism: streak addiction, low-maintenance web hosting
+Alternative: Sourcehut
+
+I use github for:
+* Git hosting: This is where are all my source code lives in, as well as all my configuration.
+* Website hosting: My website is hosted on Github Pages. It's very low-maintenance. Before wanting to host Gemini I didn't need anything to maintain anything to keep the website running. Github did the hosting, and Cloudflare provided CDN. The Cloudflare bit is not even that necessary for my website. After I launched my Gemini capsule, I needed to setup a webserver of my own though, so that I can have both my website and my capsule on the same domain (otherwise I'd have to host the capsule at a separate sub-domain, which I dislike).
+
+The main reason getting out of github for me has always been the activity diagram on the profile page. I'm a sucker for streaks. I just recently allowed my 2325 day Duolingo streak die with great difficulty. Github is the same, only worse. I just like looking at the diagram and see the big clusters of activity.
+
+Also, there's a partial social network effect at play too. Everyone else is on github. You exchange github handles with other developers. It's sorta expected to have a github account. To mitigate this, I'm planning on setting up my profile page to point people to my new home. Maybe also pointing them to this page (or a web version of it) explaining why I've moved.
+
+On the bright side, the more I look at sourcehut the more I like it. The CI system I particularly find interesting. Whenever I've wanted to try Github's version of that, I've found it unreasonably complicated and uninteresting.
+
+Also, sourcehut seems to have it's own alternative to github pages (with gemini hosting as well!) so that's another big plus.
+
+Overall, the process of migrating from github to sourcehut seems to be simple and clear, psychological factors aside.
+
+## Gmail
+Lock in mechanism: ease of use, making independent email service really hard under the guise of fighting spam
+Alternatives: self-hosting, Proton Mail
+
+## Google
+Lock in mechanism: integration with everything google, being relatively better than everything else
+Alternative: Duck Duck Go
+
+## Google Chrome
+Lock-in mechanism: synchronization, especially password management
+Alternative: Firefox
+
+## Google Keep
+Lock-in mechanism: Android integration, seamless synchronization
+Alternative: org mode with some synchronization mechanism added (plus most likely a mobile app)
+
+## Google Maps
+Lock-in mechanism: Android integration
+Alternative: Open Street Maps
+
+## Google Authenticator
+Lock-in mechanism: Having Google in the name! :) Generally being annoying to switch off of by nature
+Alternative: Authy
+
+## Google Podcasts
+Lock-in mechanism: Being available by default on Android
+
+## Google Drive/Docs
+Lock-in mechanism: Integration with Google services, default on Android
+Alternative: roll your own?
+
+## Youtube
+Lock-in mechanism: Having most of the video on the Internet (well, the sort I'm interested in)
+Alternative: I already have Nebula, and I also need to take a look at Peertube, but I have a feeling there's no real alternative.
+
+## Amazon
+Lock-in mechanism: having almost everything with (usually) quick and free/cheap delivery, kindle and kindle store
+Alternative: buy local, bol.com, coolblue.nl
+
+## Cloudflare
+Lock-in mechanism: not much, except having a big name
+Alternative: there are a few, but are they any better? maybe going with one of the smaller ones?
+
+## Audible
+Lock-in mechanism: having most of the world's audiobooks (in English at least)
+Alternative: not a real one, but there are some other audiobook apps like libro.fm
+
+## Twitter
+Lock-in mechanism: having everyone else in there
+Alternative: Mastodon
+
+=> / Home
