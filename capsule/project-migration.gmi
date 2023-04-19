@@ -10,8 +10,8 @@ Here are the things that I might want to do as part of this project:
 
 [ ] Github
 [ ] Gmail
-[ ] Google
-[ ] Google Chrome
+[-] Google
+[-] Google Chrome
 [ ] Google Keep
 [ ] Google Maps
 [ ] Google Authenticator
@@ -60,6 +60,11 @@ Also, sourcehut seems to have it's own alternative to github pages (with gemini 
 
 Overall, the process of migrating from github to sourcehut seems to be simple and clear, psychological factors aside.
 
+What needs to be done:
+
+[ ] Move (important) repos to sr.ht
+[ ] Move github pages to sr.ht pages
+
 ## Gmail
 Lock in mechanism: ease of use, making independent email service really hard under the guise of fighting spam
 Alternatives: self-hosting, Proton Mail
@@ -69,8 +74,47 @@ Lock in mechanism: integration with everything google, being relatively better t
 Alternative: Duck Duck Go
 
 ## Google Chrome
-Lock-in mechanism: synchronization, especially password management
+Lock-in mechanism: synchronization, especially password management. Google Translate.
 Alternative: Firefox
+
+Two things have kept me from switching away from Chrome recently: Google Translate integration, and synchronization.
+
+I rather need Translate because I still don't know enough Dutch to read everything comfortably without needing help, and Google Translate has been a big help to me these past few years. Fortunately, my Dutch proficiency has slowly improved and I'm not _that_ dependent on Translate. In the cases that I do need help, I've found two extensions that might help:
+
+=> https://addons.mozilla.org/en-US/firefox/addon/firefox-translations/ "Firefox Translations" Add-on
+
+This extension is developed by Mozilla themselvec. It's an offline tool which could be an advantage. Dutch support is in beta, so not sure about the quality. I just tried it quickly on the bol.com website, and it seemed passable. Still, I need to test it more on longer form text.
+
+I've also installed installed the "To Google Translate" extension as a backup for now:
+
+=> https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/ "To Google Translate" Add-on
+
+This could either open Google Translate for the selected text, or open a .translate.goog sub-domain to translate the entire page. Neither is as convenient as having Chrome translate the page in-place, but it might be good enough for me.
+
+It hasn't escaped me that I'm still depending on a Google service here, but it's still a backup, and I'll try keeping its use to a minimum. I'll also be on the lookout for other alternatives.
+
+Another thing that has kept me tied to Chrome is synchronization. I synchronize everything except for tabs. The most important bit though are the passwords. Google's password manager is integrated into Android, so that means I can easily use it on my phone or on my PC, inside the apps or in a browser. It's very convenient. I experimentally tried a hosted Bitwarden system about a year ago. Android integration didn't seem to be as good as Google's unfortunately. Still, it can probably made to work. I need to take another look at it. I might also want to try other hosted services. Firefox itself has its own sync system, but I don't know if it can be integrated into Android to work with apps too. Probably not, but I need to investigate.
+
+There are other smaller things that I've used in Chrome and I'd like to have in Firefox too. Tab groups for example. Firefox does not have native tab groups it seems. I've found the following extension to add tab groups to Firefox:
+
+=> https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/ "Simple Tab Groups" Add-on
+
+It's quite different from how native does this though. I need to see if I like it or not.
+
+My already open tabs and tab groups are another thing that make the move difficult on their own. I'm a big tab addict. I don't close my tabs quite as often as I should! Instead I leave them open for months, and when things start getting really out of hand, I categorize them into groups. I've got quite a lot of them open. Chrome's new "Manage windows" feature says that I have 1437 tabs open on my PC. That can't be right, can it? If that's really correct, I might need professional help!
+
+Progress Report:
+* Installed Firefox on all my devices.
+* Installed "Firefox Translations" and "To Google Translate" add-ons.
+* Installed "Simple Tab Groups" add-on.
+
+Tasks:
+[ ] Come up with a few alternatives for password management.
+[ ] Find out if there's a way to have Firefox's password manager as Android's password manager
+[ ] Move open tabs to Firefox
+[ ] Make Firefox default on my phone
+[ ] Make Firefox default on my PC
+[ ] Start using Firefox for work too.
 
 ## Google Keep
 Lock-in mechanism: Android integration, seamless synchronization
