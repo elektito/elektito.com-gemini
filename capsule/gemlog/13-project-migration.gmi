@@ -1,0 +1,13 @@
+# Project Migration
+
+I've been meaning to move away from some of the services I depend on. The reason vary from service to service, in some quality has gone done as they've tried to make things more "social", to market consolidation, which I am against on principal, to just plain being afraid of having all my data at the hands of one company which can cut me off at any moment they want. Then a few days ago I read this post that reminded me of all that:
+
+=> gemini://ploum.be/2023-02-22-leaving-github.gmi We need to talk about your Github addiction
+
+Github has been one of the first services I've been meaning to move away from. I had been eyeing sr.ht for a while. In fact a few weeks ago I just opened a paid account on a whim. Anyways, I realized it's time to start the move. But github is only one of the many services I want to get away from. So I created a page to keep track of all the products and services I'd like to cut, and also how my progress is going with each one.
+
+=> /project-migration Project Migration
+
+It's a bit messy at the moment, but I'll hopefully clean it up as I expand. It's a lot of work, and I'm not sure if/when I can do all that. But I'm certainly going to try. Wish me luck!
+
+=> / Home
