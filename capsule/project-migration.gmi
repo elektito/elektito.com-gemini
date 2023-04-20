@@ -8,7 +8,7 @@ This provided me with a gentle reminder. Github is probably one of the easier se
 
 Here are the things that I might want to do as part of this project:
 
-[ ] Github
+[-] Github
 [ ] Gmail
 [-] Google
 [-] Google Chrome
@@ -43,7 +43,7 @@ And here are some reasons why I might _not_ want to do this:
 I'll be populating the rest of this page with stubs and ideas, and try to expand the entries as I make progress, or have new thoughts.
 
 ## Github
-Lock-in mechanism: streak addiction, low-maintenance web hosting
+Lock-in mechanism: streak addiction, low-maintenance web hosting, social pressure
 Alternative: Sourcehut
 
 I use github for:
@@ -60,10 +60,15 @@ Also, sourcehut seems to have it's own alternative to github pages (with gemini 
 
 Overall, the process of migrating from github to sourcehut seems to be simple and clear, psychological factors aside.
 
-What needs to be done:
+Progress:
+* Hodhod was moved to sr.ht
+* Created initial version of my website using sourcehut pages (for now at elektito.srht.site)
 
-[ ] Move (important) repos to sr.ht
-[ ] Move github pages to sr.ht pages
+Tasks:
+[-] Move (important) repos to sr.ht
+[-] Move github pages to sr.ht pages
+[ ] Add a profile README to github telling people about the move
+[ ] Update website/capsule links to point to the new repos
 
 ## Gmail
 Lock in mechanism: ease of use, making independent email service really hard under the guise of fighting spam
@@ -118,7 +123,7 @@ Tasks:
 
 ## Google Keep
 Lock-in mechanism: Android integration, seamless synchronization
-Alternative: org mode with some synchronization mechanism added (plus most likely a mobile app)
+Alternative: org mode with some synchronization mechanism added (plus a mobile app)
 
 ## Google Maps
 Lock-in mechanism: Android integration
