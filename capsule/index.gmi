@@ -28,7 +28,8 @@ Find me in other places:
 => mailto:mostafa@sepent.com 📧 Email
 => https://elektito.com 🕸️ My Personal Website
 => https://mastodon.social/@elektito 🟪 Mastodon
-=> https://github.com/elektito 💾 Github
+=> https://github.com/elektito 💾 Github (I'm moving away from github though!)
+=> https://sr.ht/~elektito 💾 Sourcehut (My new home for all things code)
 => https://elektito.itch.io/ 🕹️ My Games on itch.io
 
 ---

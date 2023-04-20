@@ -50,6 +50,7 @@ Sorry again for being a bad citizen. I'll try to be better. If you'd like to ema
 
 My crawler's source code is available here:
 
-=> https://github.com/elektito/gcrawler Gcrawler Github
+=> https://github.com/elektito/gcrawler Gcrawler Github (original link - now broken)
+=> https://git.sr.ht/~elektito/gemplex Gemplex on sr.ht (new link)
 
 (Yeah, that's a very unimaginative name. I'll try to come up with a better one!)

@@ -2,7 +2,7 @@
 
 So I finally have a working version of my Gemini server which is now called Hodhod. You can find the source code here:
 
-=> https://github.com/elektito/hodhod Hodhod on Github
+=> https://git.sr.ht/~elektito/hodhod Hodhod on sr.ht
 
 These are the design goals I had in mind, when writing Hodhod:
 

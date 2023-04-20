@@ -3,4 +3,4 @@
 Hodhod is a Gemini server, supporting both static content and CGI scripts, and
 allowing for creating clean URLs.
 
-=> https://github.com/elektito/hodhod Source Code
+=> https://git.sr.ht/~elektito/hodhod Source Code on Sourcehut
