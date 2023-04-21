@@ -111,7 +111,7 @@ S: You can't just reschedule scheduled maintenance that's been scheduled. Right 
 
 J: I shall call him Julien Junior, J.J. I will raise him to be just like me: handsome, brilliant, and most of all humble.
 
-## S0107 - Assault and Batteries
+## S01E07 - Assault and Batteries
 
 S: The only way you're getting this one is if you pry it from my cold, dead flippers.
 J: Ugh, sounds gross...but doable!
@@ -121,7 +121,7 @@ J: I was thinking more like you do all of the work, and I will watch with antici
 
 J: What more can I, a devilishly handsome lemur king, do?
 
-## S0108 - Penguiner Takes All
+## S01E08 - Penguiner Takes All
 
 J: Oh, who is more elite than me? I shall play this flag capturing game. And when I say play, of course I mean win.
 
@@ -148,5 +148,16 @@ J: But I have the all, and you have the nothing. so...how does that work?
 
 J: The flightless birds! they...they...
 M: They're flying!
+
+## S01E09 - Two Feet High and Rising
+
+S: Well, that's five minutes of our lives we're not getting back.
+K: Until I get my time machine fully functioning.
+
+M: Wait, do you mean that Mort is exiled for eternity?
+J: Forever or for eternity. I'm flexible.
+
+M: You are a role model. You are a natural leader.
+S: Well, guilty as charged.
 
 => / Home
