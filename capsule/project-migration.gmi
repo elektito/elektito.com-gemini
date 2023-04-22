@@ -112,12 +112,13 @@ Progress Report:
 * Installed Firefox on all my devices.
 * Installed "Firefox Translations" and "To Google Translate" add-ons.
 * Installed "Simple Tab Groups" add-on.
+* Made Firefox the default browser on my phone
 
 Tasks:
 [ ] Come up with a few alternatives for password management.
 [ ] Find out if there's a way to have Firefox's password manager as Android's password manager
 [ ] Move open tabs to Firefox
-[ ] Make Firefox default on my phone
+[x] Make Firefox default on my phone
 [ ] Make Firefox default on my PC
 [ ] Start using Firefox for work too.
 
