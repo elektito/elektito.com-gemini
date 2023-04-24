@@ -1,0 +1,13 @@
+# Image Search for Gemplex
+
+I decided to add image search to Gemplex over the weekend. Well, it's not really "image" search. Thought it would be fun to call it that though! What it really is is ASCII art search.
+
+=> gemini://gemplex.space/image/search Gemplex Image Search
+
+It only searches the ASCII art that has some alt text though. You can also go to this link to see a random ASCII art (whether it has alt text or not):
+
+=> gemini://gemplex.space/image/random Show Random Image
+
+I've used some simple heuristics to distinguish ASCII art from other kinds of pre-formatted text (like source code), but of course that's not fool proof, so it's likely there are pieces of ASCII art that are ignored, and some other pre-formatted text that's classified as ASCII art.
+
+=> / Home
